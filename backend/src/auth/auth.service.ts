@@ -41,7 +41,7 @@ export class AuthService {
     const payload = await this.buildPayload(userId);
     const accessToken = await this.jwt.signAsync(payload, {
       secret: process.env.JWT_ACCESS_SECRET ?? 'change-me-access',
-      expiresIn: process.env.JWT_ACCESS_TTL ?? '15m',
+      expiresIn: (process.env.JWT_ACCESS_TTL ?? '15m') as `${number}m`,
     });
     const refreshToken = randomBytes(48).toString('hex');
     await this.prisma.refreshToken.create({
