@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { FaqClient, FAQ_GROUPS } from "./faq-client";
+import { FaqClient } from "./faq-client";
+import { FAQ_GROUPS } from "./faq-data";
 
 export const metadata: Metadata = {
   title: "FAQ",
