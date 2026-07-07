@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+      
+  <defs>
+    <radialGradient id="c-gift-boxes" cx="35%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#132A52"/><stop offset="100%" stop-color="#0A1930"/>
+    </radialGradient>
+  </defs>
+      <rect width="800" height="1000" fill="url(#c-gift-boxes)"/>
+      <rect x="28" y="28" width="744" height="944" rx="18" fill="none" stroke="#D8B46A" stroke-width="1.5" opacity="0.6"/>
+      <g transform="translate(400 470) scale(2.1)">
+    <g fill="none" stroke="#D8B46A" stroke-width="3">
+      <rect x="-65" y="-25" width="130" height="90" rx="8" />
+      <rect x="-75" y="-52" width="150" height="27" rx="6" />
+      <line x1="0" y1="-52" x2="0" y2="65" />
+      <path d="M 0 -52 C -35 -95 -55 -60 0 -52 C 55 -60 35 -95 0 -52" stroke-width="2.5"/>
+    </g></g>
+      <g opacity="0.25" stroke="#D8B46A" fill="none">
+        <circle cx="400" cy="470" r="260" stroke-width="0.8"/>
+        <circle cx="400" cy="470" r="300" stroke-width="0.6"/>
+      </g>
+    </svg>

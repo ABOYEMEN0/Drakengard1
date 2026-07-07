@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+      
+  <defs>
+    <radialGradient id="c-coffee" cx="35%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#3E2C22"/><stop offset="100%" stop-color="#1E140F"/>
+    </radialGradient>
+  </defs>
+      <rect width="800" height="1000" fill="url(#c-coffee)"/>
+      <rect x="28" y="28" width="744" height="944" rx="18" fill="none" stroke="#D8B46A" stroke-width="1.5" opacity="0.6"/>
+      <g transform="translate(400 470) scale(2.1)">
+    <g fill="none" stroke="#D8B46A" stroke-width="3">
+      <ellipse cx="0" cy="0" rx="52" ry="78" />
+      <path d="M 0 -78 C 30 -40 -30 40 0 78" />
+    </g></g>
+      <g opacity="0.25" stroke="#D8B46A" fill="none">
+        <circle cx="400" cy="470" r="260" stroke-width="0.8"/>
+        <circle cx="400" cy="470" r="300" stroke-width="0.6"/>
+      </g>
+    </svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+        
+  <defs>
+    <radialGradient id="p-winter-spice-hot-chocolate-2" cx="35%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#23345C"/><stop offset="100%" stop-color="#101C36"/>
+    </radialGradient>
+  </defs>
+        <rect width="800" height="800" fill="url(#p-winter-spice-hot-chocolate-2)"/>
+        
+    <g transform="translate(400 400) scale(1.15)" opacity="0.55">
+    <g fill="none" stroke="#E9D6AC" stroke-width="3">
+      <path d="M 18 -70 A 72 72 0 1 0 70 22 A 58 58 0 1 1 18 -70 Z" />
+      <path d="M 52 -52 l 4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4 Z" fill="#E9D6AC" stroke="none" opacity="0.8"/>
+    </g></g>
+    <g transform="translate(400 400) scale(1.9)" opacity="0.9">
+    <g fill="none" stroke="#E9D6AC" stroke-width="3">
+      <path d="M 18 -70 A 72 72 0 1 0 70 22 A 58 58 0 1 1 18 -70 Z" />
+      <path d="M 52 -52 l 4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4 Z" fill="#E9D6AC" stroke="none" opacity="0.8"/>
+    </g></g>
+    <rect x="60" y="60" width="680" height="680" rx="16" fill="none" stroke="#E9D6AC" stroke-width="1.2" opacity="0.5"/>
+      </svg>
