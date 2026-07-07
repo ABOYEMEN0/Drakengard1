@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ivory text-ink font-body antialiased;
+  }
+
+  ::selection {
+    @apply bg-gold-200 text-navy;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-navy;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-gold ring-offset-2 ring-offset-ivory;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-page px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply text-xs font-medium uppercase tracking-luxe text-gold-600;
+  }
+
+  .heading-xl {
+    @apply font-display text-4xl font-medium leading-tight text-navy sm:text-5xl lg:text-6xl;
+  }
+
+  .heading-lg {
+    @apply font-display text-3xl font-medium leading-tight text-navy sm:text-4xl;
+  }
+
+  .heading-md {
+    @apply font-display text-2xl font-medium text-navy sm:text-3xl;
+  }
+
+  .card-luxe {
+    @apply rounded-card border border-line bg-cream shadow-soft transition-shadow duration-300;
+  }
+
+  .gold-rule {
+    @apply inline-block h-px w-16 bg-gold;
+  }
+
+  .input-luxe {
+    @apply w-full rounded-button border border-line bg-white px-4 py-3 text-sm text-ink placeholder:text-muted/60 transition-colors duration-200 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold;
+  }
+
+  .label-luxe {
+    @apply mb-1.5 block text-sm font-medium text-navy;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .skeleton {
+    @apply animate-shimmer rounded-card bg-gradient-to-r from-line/40 via-line/70 to-line/40 bg-[length:400px_100%];
+  }
+}
+
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+}

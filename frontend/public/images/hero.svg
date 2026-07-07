@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+    
+  <defs>
+    <radialGradient id="hero" cx="35%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#1D3760"/><stop offset="100%" stop-color="#0A1930"/>
+    </radialGradient>
+  </defs>
+    <rect width="1600" height="900" fill="url(#hero)"/>
+    <g opacity="0.16" stroke="#D8B46A" fill="none">
+      <circle cx="1250" cy="450" r="90" stroke-width="0.8"/><circle cx="1250" cy="450" r="158" stroke-width="0.8"/><circle cx="1250" cy="450" r="226" stroke-width="0.8"/><circle cx="1250" cy="450" r="294" stroke-width="0.8"/><circle cx="1250" cy="450" r="362" stroke-width="0.8"/><circle cx="1250" cy="450" r="430" stroke-width="0.8"/><circle cx="1250" cy="450" r="498" stroke-width="0.8"/><circle cx="1250" cy="450" r="566" stroke-width="0.8"/><circle cx="1250" cy="450" r="634" stroke-width="0.8"/>
+    </g>
+    <g transform="translate(1250 450)" opacity="0.9">
+      <ellipse cx="0" cy="0" rx="120" ry="180" fill="none" stroke="#D8B46A" stroke-width="4"/>
+      <path d="M 0 -180 C 70 -90 -70 90 0 180" fill="none" stroke="#D8B46A" stroke-width="4"/>
+    </g>
+    <g opacity="0.35" fill="#D8B46A">
+      <circle cx="180" cy="760" r="2.5"/><circle cx="420" cy="120" r="2"/><circle cx="960" cy="200" r="2.5"/>
+      <circle cx="720" cy="800" r="2"/><circle cx="1480" cy="120" r="2"/>
+    </g>
+  </svg>

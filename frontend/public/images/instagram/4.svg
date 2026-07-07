@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+      
+  <defs>
+    <radialGradient id="ig-3" cx="35%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#0F2345"/><stop offset="100%" stop-color="#0A1930"/>
+    </radialGradient>
+  </defs>
+      <rect width="600" height="600" fill="url(#ig-3)"/>
+      <g transform="translate(300 300) scale(1.5) rotate(21)">
+    <g fill="none" stroke="#D8B46A" stroke-width="3">
+      <path d="M -55 -30 L -35 65 L 45 65 L 60 -30 Z" />
+      <path d="M -55 -30 C -55 -55 60 -55 60 -30" />
+      <path d="M -80 -38 C -30 -60 -10 -34 -58 -28" stroke-width="2.5"/>
+    </g></g>
+      <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-size="14"
+        letter-spacing="6" fill="#D8B46A" opacity="0.75">@LEOR.SA</text>
+    </svg>

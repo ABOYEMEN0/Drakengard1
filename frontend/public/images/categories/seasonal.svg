@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+      
+  <defs>
+    <radialGradient id="c-seasonal" cx="35%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#23345C"/><stop offset="100%" stop-color="#101C36"/>
+    </radialGradient>
+  </defs>
+      <rect width="800" height="1000" fill="url(#c-seasonal)"/>
+      <rect x="28" y="28" width="744" height="944" rx="18" fill="none" stroke="#E9D6AC" stroke-width="1.5" opacity="0.6"/>
+      <g transform="translate(400 470) scale(2.1)">
+    <g fill="none" stroke="#E9D6AC" stroke-width="3">
+      <path d="M 18 -70 A 72 72 0 1 0 70 22 A 58 58 0 1 1 18 -70 Z" />
+      <path d="M 52 -52 l 4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4 Z" fill="#E9D6AC" stroke="none" opacity="0.8"/>
+    </g></g>
+      <g opacity="0.25" stroke="#E9D6AC" fill="none">
+        <circle cx="400" cy="470" r="260" stroke-width="0.8"/>
+        <circle cx="400" cy="470" r="300" stroke-width="0.6"/>
+      </g>
+    </svg>

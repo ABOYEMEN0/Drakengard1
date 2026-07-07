@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+      
+  <defs>
+    <radialGradient id="ig-0" cx="35%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#3E2C22"/><stop offset="100%" stop-color="#1E140F"/>
+    </radialGradient>
+  </defs>
+      <rect width="600" height="600" fill="url(#ig-0)"/>
+      <g transform="translate(300 300) scale(1.5) rotate(-30)">
+    <g fill="none" stroke="#D8B46A" stroke-width="3">
+      <ellipse cx="0" cy="0" rx="52" ry="78" />
+      <path d="M 0 -78 C 30 -40 -30 40 0 78" />
+    </g></g>
+      <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-size="14"
+        letter-spacing="6" fill="#D8B46A" opacity="0.75">@LEOR.SA</text>
+    </svg>
